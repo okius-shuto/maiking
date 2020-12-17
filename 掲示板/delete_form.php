@@ -32,13 +32,13 @@
 <html>
 <head>
         <meta charset = "UTF-8">
-        <title>mission5_01</title>
+        <title>"title"</title>
 </head>
     <body>
         
 
 
-<form method="post" action="mission5_01_delete.php">    
+<form method="post" action="delete.php">    
     <p><input type="text" name="deleteNo" placeholder="削除対象番号">
     <input type="text" name="pass" placeholder="パスワード" value=""><br>      
     <input type="submit" name="delete" value="削除"></p>
