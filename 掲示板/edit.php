@@ -34,22 +34,22 @@
 <html>
 <head>
         <meta charset = "UTF-8">
-        <title>mission5_01</title>
+        <title>"title"</title>
 </head>
     <body>
         
-<form method="post" action="mission5_01_db.php">
+<form method="post" action="db.php">
     <input type="text" name="name" placeholder="名前" value=""><br>
     <input type="text" name="comment"  value=""><br>
     <input type="text" name="pass" placeholder="パスワード" value="">
     <input type="submit" value="送信">
 </form>    
 
-<form method="post" action="mission5_01_delete_form.php">    
+<form method="post" action="delete_form.php">    
     <input type="submit" name="delete" value="削除"></p>
 </form>   
 
-<form method="post" action="mission5_01_edit_form.php"> 
+<form method="post" action="edit_form.php"> 
     <input type="" name="edit_post" placeholder="編集番号"value=""><br>
     <input type="text" name="pass" placeholder="パスワード" value=""><br>    
     <input type="submit" value="編集">
