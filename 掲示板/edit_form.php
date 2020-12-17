@@ -32,11 +32,11 @@
 <html>
 <head>
         <meta charset = "UTF-8">
-        <title>mission5_01</title>
+        <title>"title"</title>
 </head>
 <body>
         
-<form method="post" action="mission5_01_edit.php">
+<form method="post" action="edit.php">
     <input type="text" name="name" placeholder="名前" value="">
     <input type="" name="edit_post" placeholder="編集番号"value="<?php echo $_POST["edit_post"] ?>"><br>
     <input type="text" name="comment"  value="">
